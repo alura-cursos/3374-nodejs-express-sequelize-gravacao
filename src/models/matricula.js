@@ -6,11 +6,9 @@ module.exports = (sequelize, DataTypes) => {
   class Matricula extends Model {
     static associate(models) {
       Matricula.belongsTo(models.Curso, {
-        tableName: 'cursos',
         foreignKey: 'curso_id'
       });
       Matricula.belongsTo(models.Pessoa, {
-        tableName: 'pessoas',
         foreignKey: 'estudante_id'
       });
     }
