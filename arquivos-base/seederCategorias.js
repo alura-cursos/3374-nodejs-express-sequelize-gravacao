@@ -1,21 +1,21 @@
 [
   {
-    titulo: "Node.js",
+    titulo: 'Node.js',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
   {
-    titulo: "Java",
+    titulo: 'Java',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
   {
-    titulo: "Python",
+    titulo: 'Python',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
   {
-    titulo: "C#",
+    titulo: 'C#',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
